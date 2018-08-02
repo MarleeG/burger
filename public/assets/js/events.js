@@ -8,7 +8,6 @@ $(document).ready(function () {
         $("#wanted-burger-input").val("");
 
         $.post("/", { name: wanted }, function (data) {
-            log("Data from events.js: ", data);
         }).then(function () {
             location.reload();
         });
@@ -30,7 +29,6 @@ $(document).ready(function () {
 
     $(".eat-burger").on("click", function () {
         var id = $(this).data("id");
-        log("eaten-id: ", id);
 
         $.ajax("/api/burgers/" + id, {
             type: "PUT",
