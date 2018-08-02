@@ -1,0 +1,96 @@
+
+
+body {
+    background-color: black;
+}
+
+.header {
+    text-align: center;
+}
+
+#top-bun {
+    margin-top: 10px;
+    width: 500px;
+    height: 100px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 300px 300px 20px 20px;
+    
+}
+
+#bottom-bun, #top-bun{
+    background-image: url('../img/sesame_seeds.jpg');
+    border-color: #CF7B53;
+}
+
+#lettuce,
+#tomatoes,
+#cheese {
+    width: 450px;
+    height: 10px;
+    border-radius: 100px;
+    margin-top: 5px;
+}
+
+#lettuce {
+    background-color: green;
+}
+
+#tomatoes {
+    background-color: orangered;
+}
+
+#cheese {
+    background-color: #FFC300;
+}
+
+#meat {
+    background-color: #E8AEA1;
+    width: 500px;
+    height: 600px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+#bottom-bun {
+    width: 500px;
+    height: 100px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px 20px 50px 50px;
+    margin-top: 10px;
+
+}
+
+.on-the-menu {
+    width: 475px;
+}
+
+.first-section,
+.second-section {
+    width: 100px;
+    height: 290px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.menu {
+    width: 500px;
+    height: 575px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.current-menu-items {
+    list-style: none;
+}
+
+
+li{
+    font-size: 8px;
+    margin-bottom: 5px;
+}
+
