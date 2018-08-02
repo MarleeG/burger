@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var wanted;
-
+    
     $("#submit-button").on("click", function (event) {
         event.preventDefault();
         wanted = $("#wanted-burger-input").val().trim();
