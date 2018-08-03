@@ -1,68 +1,54 @@
-
-
-body {
-    background-color: black;
+.body {
+    background-color: #E6D3F2;
 }
 
 .header {
     text-align: center;
+    font-family: 'Sigmar One', cursive;
 }
 
-#top-bun {
-    margin-top: 10px;
-    width: 500px;
-    height: 100px;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 300px 300px 20px 20px;
-    
+.burger-images{
+    margin: 20px;
 }
 
-#bottom-bun, #top-bun{
-    background-image: url('../img/sesame_seeds.jpg');
-    border-color: #CF7B53;
+#burger_heart{
+    background-color:#39EEEE;
+    border-radius: 110px;
+    padding: 10px;
+    height:auto;
+    width: 200px;
 }
 
-#lettuce,
-#tomatoes,
-#cheese {
-    width: 450px;
-    height: 10px;
-    border-radius: 100px;
-    margin-top: 5px;
+#burger_cute{
+    background-color:#FCC76B;
+    border-radius: 110px;
+    padding: 10px;
+    height:auto;
+    width: 190px;
 }
 
-#lettuce {
-    background-color: green;
+#burger_cheesing{
+    background-color:#F06ECF;
+    border-radius: 110px;
+    padding: 30px;
+    height:auto;
+    width: 200px;
 }
 
-#tomatoes {
-    background-color: orangered;
-}
-
-#cheese {
-    background-color: #FFC300;
-}
-
-#meat {
+#my-burgers {
     background-color: #E8AEA1;
-    width: 500px;
+    width: 900px;
     height: 600px;
     border-radius: 30px;
     margin-top: 10px;
+    box-shadow: 10px 15px 20px #888888;
 }
 
-#bottom-bun {
-    width: 500px;
-    height: 100px;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 20px 20px 50px 50px;
-    margin-top: 10px;
-
+.hunger-levels, .add-burger-header{
+    font-family: 'Sigmar One', cursive;
 }
 
-.on-the-menu {
+.on-the-menu{
     width: 475px;
 }
 
@@ -76,21 +62,21 @@ body {
 
 .menu {
     width: 500px;
-    height: 575px;
-    border-style: solid;
-    border-width: 1px;
-    background-color: white;
+    height: 200px;
     margin-top: 10px;
-    border-radius: 50px;
 }
 
 .current-menu-items {
     list-style: none;
 }
 
+#submit-button{
+    float: left;
+}
 
 li{
-    font-size: 8px;
+    font-size: 15px;
     margin-bottom: 5px;
+    font-family: 'Rammetto One', cursive;
 }
 
