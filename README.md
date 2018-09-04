@@ -4,7 +4,13 @@ Eat-Da-Burger! is a restaurant app that lets users input the names of burgers th
 
 ## Built With
 
-* [MySQL]
+* MySQL
+* Handlebars
+* CSS
+* Express
+* JavaScript
+* Bootstrap
+* JQuery
 
 ## Deployed App
 * [Eat-Da-Burger](https://afternoon-sea-50798.herokuapp.com) - App
